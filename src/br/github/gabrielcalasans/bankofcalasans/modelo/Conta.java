@@ -1,7 +1,9 @@
 /*
- * Classe Conta, futuramente pretendo implementar conta corrente e poupança e ela
- * se tornará uma classe abstrata.
- */
+* Classe Conta, futuramente pretendo implementar conta corrente e poupança e ela
+* se tornará uma classe abstrata.
+*/
+
+package br.github.gabrielcalasans.bankofcalasans.modelo;
 
 public class Conta {
 

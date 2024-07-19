@@ -1,3 +1,11 @@
+package br.github.gabrielcalasans.bankofcalasans.modelo;
+/**
+ * 
+ * A Classe {@code Cliente} implementa as informações para criação de um novo usuário 
+ * 
+ * @author Anderson Gabriel Calasans
+ * @version 0.1
+ */
 public class Cliente {
 
     private String titular;
@@ -9,6 +17,12 @@ public class Cliente {
         return totalClientes;
     }
 
+    /**
+     *
+     * @param nome
+     * @param cpf
+     * @param telefone
+     */
     public Cliente(String nome, String cpf, String telefone) {
         this.setTitular(nome);
         this.setCpf(cpf);
